@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="container">
+        <div class="Weather_container">
+            <div class="temp">
+                <p id="temperature">--°C</p> <!-- Updated to have an ID for JS targeting -->
+            </div>
+            <div class="time_location">
+                <p id="location">--</p> <!-- Updated to have an ID for JS targeting -->
+                <span id="date_time">--</span> <!-- Updated to have an ID for JS targeting -->
+            </div>
+            <div class="condition">
+                <p id="condition">--</p> <!-- Updated to have an ID for JS targeting -->
+            </div>
+        </div>
+        <nav>
+            <form>
+                <input type="text" placeholder="Search for a location" class="search_area"/>
+                <button type="submit">Search</button>
+            </form>
+        </nav>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
